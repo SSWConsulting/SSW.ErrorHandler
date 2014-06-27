@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <id>CullErrorHandler</id>
+    <id>SSW.ErrorHandler</id>
     <version>1.0</version>
     <authors>Ben Cull</authors>
-    <owners>Ben Cull</owners>
+    <owners>Ben Cull, SSW</owners>
     <iconUrl>http://www.hanselman.com/images/nugeticon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The ultimate MVC Error Handler. Once installed your website will show graceful error pages and will respond to AJAX requests with dignity.</description>
-    <tags>Elmah Error Handler MVC</tags>
+    <tags>Elmah Error Handler MVC SSW</tags>
      <dependencies>
       <dependency id="WebActivator" version="1.1" />
     </dependencies> 
