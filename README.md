@@ -5,17 +5,17 @@ The ultimate MVC Error Handler. Once installed your website will show graceful e
 
 ## Included Files
 
-\App_Start
-    \ErrorHandlerStartup.cs
-\Controllers
-    \ErrorController.cs
-\Filters
-    \CustomErrorFilter.cs
-\Views
-    \Error
-	    \Index.cshtml
-		\NotFound.cshtml
-\web.config
+    \App_Start
+        \ErrorHandlerStartup.cs
+    \Controllers
+        \ErrorController.cs
+    \Filters
+        \CustomErrorFilter.cs
+    \Views
+        \Error
+            \Index.cshtml
+            \NotFound.cshtml
+    \web.config
 
 **ErrorHandlerStartup.cs**
 This code hooks up our custom error filter and removes the default HandleErrorAttribute filter.
@@ -41,10 +41,10 @@ The web.config is automatically updated to turn customErrors on. It is best prac
 Ensure your web.config has customErrors set to On.
 
     <configuration>
-	  <system.web>
-	    <customErrors mode="On" />
-	  </system.web>
-	</configuration>
-	
+      <system.web>
+        <customErrors mode="On" />
+      </system.web>
+    </configuration>
+    
 Enjoy useful, easy error screens and JSON messages.
 
